@@ -50,7 +50,7 @@ If you want to build the Docker image yourself, follow these steps:
 3. Run the following command to build the image:
 
    ```bash
-   docker build -t thallavi/ecommerce-ui .
+   docker build -t jyothsnav/ecommerce-ui .
    ```
 
-   This command will build the Docker image using the provided Dockerfile and tag it as `thallavi/ecommerce-ui`.
+   This command will build the Docker image using the provided Dockerfile and tag it as `jyothsnav/ecommerce-ui`.

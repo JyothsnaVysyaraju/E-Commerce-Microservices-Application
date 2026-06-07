@@ -53,5 +53,5 @@ To build the Docker image yourself, follow these steps:
 2. Navigate to the directory where the Dockerfile is located.
 3. Build the image using the following command:
    ```bash
-   docker build -t thallavi/order-management .
+   docker build -t jyothsnav/order-management .
    ```

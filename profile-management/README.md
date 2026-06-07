@@ -41,7 +41,7 @@ If you want to build the Docker image yourself, follow these steps:
 3. Run the following command to build the image:
 
 ```bash
-docker build -t authentication-microservice .
+docker build -t jyothsnav/authentication-microservice .
 ```
 
 This command will build the Docker image using the provided Dockerfile and tag it as `authentication-microservice`.

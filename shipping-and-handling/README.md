@@ -39,7 +39,7 @@ If you want to build the Docker image yourself, follow these steps:
 3. Run the following command to build the image:
 
 ```bash
-docker build -t shipping-and-handling .
+docker build -t jyothsnav/shipping-and-handling .
 ```
 
 This command will build the Docker image using the provided Dockerfile and tag it as `shipping-and-handling`.

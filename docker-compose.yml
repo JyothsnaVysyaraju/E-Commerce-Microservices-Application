@@ -32,7 +32,7 @@ services:
       - "3306:3306"
 
   product-catalog:
-    image: thallavi/product-catalog:latest
+    image: jyothsnav/product-catalog:latest
     environment:
       MONGODB_HOST: miroc-mongo
       MONGODB_PORT: 27017
@@ -44,7 +44,7 @@ services:
       - "3001:3001"
 
   shipping-and-handling:
-    image: thallavi/shipping-and-handling:latest
+    image: jyothsnav/shipping-and-handling:latest
     environment:
       MONGO_URI: mongodb://miroc-mongo:27017/shipping_handling
     depends_on:
@@ -54,7 +54,7 @@ services:
       - "8080:8080"
 
   contact-support-team:
-    image: thallavi/contact-support-team:latest
+    image: jyothsnav/contact-support-team:latest
     environment:
       MONGODB_HOST: miroc-mongo
       MONGODB_PORT: 27017
@@ -66,7 +66,7 @@ services:
       - "8000:8000"
 
   product-inventory:
-    image: thallavi/product-inventory:latest
+    image: jyothsnav/product-inventory:latest
     environment:
       POSTGRES_HOST: miroc-postgres
       POSTGRES_PORT: 5432
@@ -80,7 +80,7 @@ services:
       - "3002:3002"
 
   profile-management:
-    image: thallavi/profile-management:latest
+    image: jyothsnav/profile-management:latest
     environment:
       MYSQL_HOST: miroc-mysql
       MYSQL_PORT: 3306
@@ -94,7 +94,7 @@ services:
       - "3003:3003"
 
   order-management:
-    image: thallavi/order-management:latest
+    image: jyothsnav/order-management:latest
     environment:
       PRODUCT_INVENTORY_API_HOST: http://product-inventory
       PRODUCT_CATALOG_API_HOST: http://product-catalog
@@ -111,7 +111,7 @@ services:
       - "9090:9090"
 
   ecommerce-ui:
-    image: thallavi/ecommerce-ui:latest
+    image: jyothsnav/ecommerce-ui:latest
     environment:
       REACT_APP_PROFILE_API_HOST: http://profile-management
       REACT_APP_PRODUCT_API_HOST: http://product-catalog

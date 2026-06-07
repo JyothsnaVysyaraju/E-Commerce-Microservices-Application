@@ -38,6 +38,6 @@ If you want to build the Docker image yourself, follow these steps:
 2. Navigate to the directory where the Dockerfile is located.
 3. Run the following command to build the image:
    ```bash
-   docker build -t product-inventory-microservice .
+   docker build -t jyothsnav/product-inventory-microservice .
    ```
    This command will build the Docker image using the provided Dockerfile and tag it as `product-inventory-microservice`.
