@@ -123,7 +123,7 @@ jobs:
       - name: Summary
         run: |
           echo "✅ Build completed"
-          echo "tag ${env.IMAGE_TAG} pushed to Docker Hub for changed services"   
+          echo "tag ${{ env.IMAGE_TAG }} pushed to Docker Hub for changed services"
 
   # update-manifests:
   #   name: Update Kubernetes Manifests
