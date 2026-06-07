@@ -29,13 +29,13 @@ docker login
 2. Build & push images (run from repo root):
 
    ```bash
-   docker build -t jyothsnav/ecommerce-ui:latest ./ecommerce-ui && docker push thallavi/ecommerce-ui:latest
-   docker build -t jyothsnav/product-catalog:latest ./product-catalog && docker push thallavi/product-catalog:latest
-   docker build -t jyothsnav/product-inventory:latest ./product-inventory && docker push thallavi/product-inventory:latest
-   docker build -t jyothsnav/order-management:latest ./order-management && docker push thallavi/order-management:latest
-   docker build -t jyothsnav/shipping-and-handling:latest ./shipping-and-handling && docker push thallavi/shipping-and-handling:latest
-   docker build -t jyothsnav/profile-management:latest ./profile-management && docker push thallavi/profile-management:latest
-   docker build -t jyothsnav/contact-support-team:latest ./contact-support-team && docker push thallavi/contact-support-team:latest
+   docker build -t jyothsnav/ecommerce-ui:latest ./ecommerce-ui 
+   docker build -t jyothsnav/product-catalog:latest ./product-catalog 
+   docker build -t jyothsnav/product-inventory:latest ./product-inventory 
+   docker build -t jyothsnav/order-management:latest ./order-management 
+   docker build -t jyothsnav/shipping-and-handling:latest ./shipping-and-handling 
+   docker build -t jyothsnav/profile-management:latest ./profile-management 
+   docker build -t jyothsnav/contact-support-team:latest ./contact-support-team 
    ```
 
 3. We can start these services by using docker-compose
