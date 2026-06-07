@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <header className="home-header">
-        <h1>Welcome to the My E-commerce App</h1>
+        <h1>Welcome to the E-commerce App</h1>
         <p>Choose any of the following options</p>
       </header>
       <main className="home-content">
