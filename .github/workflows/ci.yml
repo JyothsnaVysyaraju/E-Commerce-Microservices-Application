@@ -65,7 +65,7 @@ jobs:
 
       # Build & push steps for all services (conditional)
       - name: Build and push ecommerce-ui
-        if: steps.changes.outputs.ecommerce-ui == 'true'
+      #  if: steps.changes.outputs.ecommerce-ui == 'true'
         uses: docker/build-push-action@v6
         with:
           context: ./ecommerce-ui
@@ -73,7 +73,7 @@ jobs:
           tags: ${{ env.DOCKER_HUB_USER }}/ecommerce-ui:${{ env.IMAGE_TAG }}
 
       - name: Build and push product-catalog
-        if: steps.changes.outputs.product-catalog == 'true'
+      #  if: steps.changes.outputs.product-catalog == 'true'
         uses: docker/build-push-action@v6
         with:
           context: ./product-catalog
@@ -81,7 +81,7 @@ jobs:
           tags: ${{ env.DOCKER_HUB_USER }}/product-catalog:${{ env.IMAGE_TAG }}
 
       - name: Build and push product-inventory
-        if: steps.changes.outputs.product-inventory == 'true'
+      #  if: steps.changes.outputs.product-inventory == 'true'
         uses: docker/build-push-action@v6
         with:
           context: ./product-inventory
@@ -89,7 +89,7 @@ jobs:
           tags: ${{ env.DOCKER_HUB_USER }}/product-inventory:${{ env.IMAGE_TAG }}
 
       - name: Build and push order-management
-        if: steps.changes.outputs.order-management == 'true'
+      #  if: steps.changes.outputs.order-management == 'true'
         uses: docker/build-push-action@v6
         with:
           context: ./order-management
@@ -97,7 +97,7 @@ jobs:
           tags: ${{ env.DOCKER_HUB_USER }}/order-management:${{ env.IMAGE_TAG }}
 
       - name: Build and push shipping-and-handling
-        if: steps.changes.outputs.shipping-and-handling == 'true'
+      #  if: steps.changes.outputs.shipping-and-handling == 'true'
         uses: docker/build-push-action@v6
         with:
           context: ./shipping-and-handling
@@ -105,7 +105,7 @@ jobs:
           tags: ${{ env.DOCKER_HUB_USER }}/shipping-and-handling:${{ env.IMAGE_TAG }}
 
       - name: Build and push profile-management
-        if: steps.changes.outputs.profile-management == 'true'
+      #  if: steps.changes.outputs.profile-management == 'true'
         uses: docker/build-push-action@v6
         with:
           context: ./profile-management
@@ -113,7 +113,7 @@ jobs:
           tags: ${{ env.DOCKER_HUB_USER }}/profile-management:${{ env.IMAGE_TAG }}
 
       - name: Build and push contact-support-team
-        if: steps.changes.outputs.contact-support-team == 'true'
+      #  if: steps.changes.outputs.contact-support-team == 'true'
         uses: docker/build-push-action@v6
         with:
           context: ./contact-support-team
