@@ -1,4 +1,4 @@
-# Microservices Masterclass (mirocservices-masterclass)
+# Production-Grade CICD Pipeline for E-Commerce Microservices AWS K8s Helm GitHub Actions ArgoCD
 
 The pipeline leverages GitHub Actions for continuous integration and ArgoCD for continuous delivery, ensuring automated, secure, and consistent deployments on Amazon EKS (Elastic Kubernetes Service).
 
