@@ -109,6 +109,8 @@ for eg: Here I have updated the ecommerce-ui microservice, pipeline will trigger
 
 <img width="1510" height="1402" alt="image" src="https://github.com/user-attachments/assets/28851028-4488-4735-a1ed-1e8db60d3d06" />
 
+<img width="1292" height="944" alt="image" src="https://github.com/user-attachments/assets/ca029bfa-f19c-4fc8-aeb3-ef0d52d5cf1c" />
+
 <img width="2557" height="771" alt="image" src="https://github.com/user-attachments/assets/81c736ef-3103-4b26-ae1c-d5248ee6965a" />
 
 **For CD we will setup EKS cluster using shell scripting**
