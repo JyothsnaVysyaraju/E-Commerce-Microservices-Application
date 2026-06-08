@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: shipping-and-handling
-        image: thallavi/shipping-and-handling:latest
+        image: jyothsnav/shipping-and-handling:latest
         ports:
         - containerPort: 8080
         env:

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: profile-management
-        image: thallavi/profile-management:latest
+        image: jyothsnav/profile-management:latest
         ports:
         - containerPort: 3003
         env:

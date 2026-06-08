@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: ecommerce-ui
-        image: thallavi/ecommerce-ui:3369a34b6fbda1e388d5b5edef555a76c92ad165
+        image: jyothsnav/ecommerce-ui:3369a34b6fbda1e388d5b5edef555a76c92ad165
         ports:
         - containerPort: 4000
         env:

@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: order-management
-        image: thallavi/order-management:latest
+        image: jyothsnav/order-management:latest
         ports:
         - containerPort: 9090
         env:

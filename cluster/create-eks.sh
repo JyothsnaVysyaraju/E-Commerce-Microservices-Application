@@ -1,7 +1,7 @@
 #!/bin/bash
 CLUSTER_NAME="dev-eks"
 REGION="us-east-1"
-NODE_TYPE="t3.medium"
+NODE_TYPE="m7i-flex.large"
 NODES=3
 
 # Create EKS cluster with managed nodes

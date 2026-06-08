@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: product-catalog
-        image: thallavi/product-catalog:latest
+        image: jyothsnav/product-catalog:latest
         ports:
         - containerPort: 3001
         env:
